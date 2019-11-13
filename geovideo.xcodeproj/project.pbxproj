@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0714AA22FB9935002B24CC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0714A922FB9935002B24CC /* MediaPlayer.framework */; };
+		DF14C55822F0B4D400FE2F64 /* showtripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14C55722F0B4D400FE2F64 /* showtripController.swift */; };
+		DF50374C22EFAFBE00B45132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50374B22EFAFBE00B45132 /* AppDelegate.swift */; };
+		DF50374E22EFAFBE00B45132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50374D22EFAFBE00B45132 /* ViewController.swift */; };
+		DF50375122EFAFBE00B45132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50374F22EFAFBE00B45132 /* Main.storyboard */; };
+		DF50375322EFAFBF00B45132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF50375222EFAFBF00B45132 /* Assets.xcassets */; };
+		DF50375622EFAFBF00B45132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50375422EFAFBF00B45132 /* LaunchScreen.storyboard */; };
+		DF50375F22EFB02600B45132 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50375E22EFB02600B45132 /* CoreLocation.framework */; };
+		DF67A50E2324893100C18A9A /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A50D2324893000C18A9A /* logo1.png */; };
+		DF67A51023248D9E00C18A9A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A50F23248D9E00C18A9A /* logo.png */; };
+		DF67A512232708EC00C18A9A /* webviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67A511232708EC00C18A9A /* webviewViewController.swift */; };
+		DF67A51523295A1D00C18A9A /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A51323295A1D00C18A9A /* app_logo.png */; };
+		DF67A51623295A1D00C18A9A /* bg_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A51423295A1D00C18A9A /* bg_splash.png */; };
+		DF79E5DA23232D3E0024FC22 /* videoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79E5D923232D3E0024FC22 /* videoPreviewViewController.swift */; };
+		DFB118572304C40600FD1AD2 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB118562304C40600FD1AD2 /* newViewController.swift */; };
+		DFB11859230642CC00FD1AD2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB11858230642CC00FD1AD2 /* libsqlite3.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DFB314F422F233BC00374561 /* allvideodataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB314F322F233BC00374561 /* allvideodataViewControllerTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF0714A922FB9935002B24CC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DF14C55722F0B4D400FE2F64 /* showtripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showtripController.swift; sourceTree = "<group>"; };
+		DF50374822EFAFBE00B45132 /* geovideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geovideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF50374B22EFAFBE00B45132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF50374D22EFAFBE00B45132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF50375022EFAFBE00B45132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF50375222EFAFBF00B45132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF50375522EFAFBF00B45132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF50375722EFAFBF00B45132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF50375E22EFB02600B45132 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF67A50D2324893000C18A9A /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = ../../logo1.png; sourceTree = "<group>"; };
+		DF67A50F23248D9E00C18A9A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../logo.png; sourceTree = "<group>"; };
+		DF67A511232708EC00C18A9A /* webviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewViewController.swift; sourceTree = "<group>"; };
+		DF67A51323295A1D00C18A9A /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_logo.png; path = ../../app_logo.png; sourceTree = "<group>"; };
+		DF67A51423295A1D00C18A9A /* bg_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_splash.png; path = ../../bg_splash.png; sourceTree = "<group>"; };
+		DF79E5D923232D3E0024FC22 /* videoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoPreviewViewController.swift; sourceTree = "<group>"; };
+		DFB118562304C40600FD1AD2 /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
+		DFB11858230642CC00FD1AD2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DFB314F322F233BC00374561 /* allvideodataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allvideodataViewControllerTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF50374522EFAFBE00B45132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB11859230642CC00FD1AD2 /* libsqlite3.tbd in Frameworks */,
+				DF0714AA22FB9935002B24CC /* MediaPlayer.framework in Frameworks */,
+				DF50375F22EFB02600B45132 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF50373F22EFAFBE00B45132 = {
+			isa = PBXGroup;
+			children = (
+				DF50374A22EFAFBE00B45132 /* geovideo */,
+				DF50374922EFAFBE00B45132 /* Products */,
+				DF50375D22EFB02600B45132 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF50374922EFAFBE00B45132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF50374822EFAFBE00B45132 /* geovideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF50374A22EFAFBE00B45132 /* geovideo */ = {
+			isa = PBXGroup;
+			children = (
+				DF50374B22EFAFBE00B45132 /* AppDelegate.swift */,
+				DF50374D22EFAFBE00B45132 /* ViewController.swift */,
+				DF50374F22EFAFBE00B45132 /* Main.storyboard */,
+				DF67A511232708EC00C18A9A /* webviewViewController.swift */,
+				DF79E5D923232D3E0024FC22 /* videoPreviewViewController.swift */,
+				DF50375222EFAFBF00B45132 /* Assets.xcassets */,
+				DF50375422EFAFBF00B45132 /* LaunchScreen.storyboard */,
+				DF50375722EFAFBF00B45132 /* Info.plist */,
+				DF67A51323295A1D00C18A9A /* app_logo.png */,
+				DF67A51423295A1D00C18A9A /* bg_splash.png */,
+				DF67A50F23248D9E00C18A9A /* logo.png */,
+				DF67A50D2324893000C18A9A /* logo1.png */,
+				DF14C55722F0B4D400FE2F64 /* showtripController.swift */,
+				DFB314F322F233BC00374561 /* allvideodataViewControllerTableViewController.swift */,
+				DFB118562304C40600FD1AD2 /* newViewController.swift */,
+			);
+			path = geovideo;
+			sourceTree = "<group>";
+		};
+		DF50375D22EFB02600B45132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB11858230642CC00FD1AD2 /* libsqlite3.tbd */,
+				DF0714A922FB9935002B24CC /* MediaPlayer.framework */,
+				DF50375E22EFB02600B45132 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF50374722EFAFBE00B45132 /* geovideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF50375A22EFAFBF00B45132 /* Build configuration list for PBXNativeTarget "geovideo" */;
+			buildPhases = (
+				DF50374422EFAFBE00B45132 /* Sources */,
+				DF50374522EFAFBE00B45132 /* Frameworks */,
+				DF50374622EFAFBE00B45132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geovideo;
+			productName = geovideo;
+			productReference = DF50374822EFAFBE00B45132 /* geovideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF50374022EFAFBE00B45132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "kent state university";
+				TargetAttributes = {
+					DF50374722EFAFBE00B45132 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = DF50374322EFAFBE00B45132 /* Build configuration list for PBXProject "geovideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF50373F22EFAFBE00B45132;
+			productRefGroup = DF50374922EFAFBE00B45132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF50374722EFAFBE00B45132 /* geovideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF50374622EFAFBE00B45132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF50375622EFAFBF00B45132 /* LaunchScreen.storyboard in Resources */,
+				DF67A51023248D9E00C18A9A /* logo.png in Resources */,
+				DF67A51623295A1D00C18A9A /* bg_splash.png in Resources */,
+				DF67A51523295A1D00C18A9A /* app_logo.png in Resources */,
+				DF50375322EFAFBF00B45132 /* Assets.xcassets in Resources */,
+				DF67A50E2324893100C18A9A /* logo1.png in Resources */,
+				DF50375122EFAFBE00B45132 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF50374422EFAFBE00B45132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF67A512232708EC00C18A9A /* webviewViewController.swift in Sources */,
+				DF79E5DA23232D3E0024FC22 /* videoPreviewViewController.swift in Sources */,
+				DFB118572304C40600FD1AD2 /* newViewController.swift in Sources */,
+				DF50374E22EFAFBE00B45132 /* ViewController.swift in Sources */,
+				DF14C55822F0B4D400FE2F64 /* showtripController.swift in Sources */,
+				DFB314F422F233BC00374561 /* allvideodataViewControllerTableViewController.swift in Sources */,
+				DF50374C22EFAFBE00B45132 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF50374F22EFAFBE00B45132 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF50375022EFAFBE00B45132 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF50375422EFAFBF00B45132 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF50375522EFAFBF00B45132 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF50375822EFAFBF00B45132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF50375922EFAFBF00B45132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF50375B22EFAFBF00B45132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNZPBLT7UK;
+				INFOPLIST_FILE = geovideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kent-state-university.geovideofinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF50375C22EFAFBF00B45132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNZPBLT7UK;
+				INFOPLIST_FILE = geovideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kent-state-university.geovideofinal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF50374322EFAFBE00B45132 /* Build configuration list for PBXProject "geovideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50375822EFAFBF00B45132 /* Debug */,
+				DF50375922EFAFBF00B45132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF50375A22EFAFBF00B45132 /* Build configuration list for PBXNativeTarget "geovideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50375B22EFAFBF00B45132 /* Debug */,
+				DF50375C22EFAFBF00B45132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF50374022EFAFBE00B45132 /* Project object */;
+}
