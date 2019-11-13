@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF0714AA22FB9935002B24CC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0714A922FB9935002B24CC /* MediaPlayer.framework */; };
+		DF1357B3237C8D3F000ABC4A /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1357B1237C8D3F000ABC4A /* app_logo.png */; };
+		DF1357B6237C8D80000ABC4A /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1357B4237C8D80000ABC4A /* logo1.png */; };
+		DF1357B7237C8D80000ABC4A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1357B5237C8D80000ABC4A /* logo.png */; };
 		DF14C55822F0B4D400FE2F64 /* showtripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14C55722F0B4D400FE2F64 /* showtripController.swift */; };
 		DF50374C22EFAFBE00B45132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50374B22EFAFBE00B45132 /* AppDelegate.swift */; };
 		DF50374E22EFAFBE00B45132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF50374D22EFAFBE00B45132 /* ViewController.swift */; };
@@ -15,11 +18,7 @@
 		DF50375322EFAFBF00B45132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF50375222EFAFBF00B45132 /* Assets.xcassets */; };
 		DF50375622EFAFBF00B45132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF50375422EFAFBF00B45132 /* LaunchScreen.storyboard */; };
 		DF50375F22EFB02600B45132 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF50375E22EFB02600B45132 /* CoreLocation.framework */; };
-		DF67A50E2324893100C18A9A /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A50D2324893000C18A9A /* logo1.png */; };
-		DF67A51023248D9E00C18A9A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A50F23248D9E00C18A9A /* logo.png */; };
 		DF67A512232708EC00C18A9A /* webviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67A511232708EC00C18A9A /* webviewViewController.swift */; };
-		DF67A51523295A1D00C18A9A /* app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A51323295A1D00C18A9A /* app_logo.png */; };
-		DF67A51623295A1D00C18A9A /* bg_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = DF67A51423295A1D00C18A9A /* bg_splash.png */; };
 		DF79E5DA23232D3E0024FC22 /* videoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF79E5D923232D3E0024FC22 /* videoPreviewViewController.swift */; };
 		DFB118572304C40600FD1AD2 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB118562304C40600FD1AD2 /* newViewController.swift */; };
 		DFB11859230642CC00FD1AD2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB11858230642CC00FD1AD2 /* libsqlite3.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -28,6 +27,9 @@
 
 /* Begin PBXFileReference section */
 		DF0714A922FB9935002B24CC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DF1357B1237C8D3F000ABC4A /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_logo.png; path = ../../../app_logo.png; sourceTree = "<group>"; };
+		DF1357B4237C8D80000ABC4A /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = ../../../logo1.png; sourceTree = "<group>"; };
+		DF1357B5237C8D80000ABC4A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
 		DF14C55722F0B4D400FE2F64 /* showtripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showtripController.swift; sourceTree = "<group>"; };
 		DF50374822EFAFBE00B45132 /* geovideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geovideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF50374B22EFAFBE00B45132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,15 +39,12 @@
 		DF50375522EFAFBF00B45132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF50375722EFAFBF00B45132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF50375E22EFB02600B45132 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		DF67A50D2324893000C18A9A /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo1.png; path = ../../logo1.png; sourceTree = "<group>"; };
-		DF67A50F23248D9E00C18A9A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../logo.png; sourceTree = "<group>"; };
 		DF67A511232708EC00C18A9A /* webviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewViewController.swift; sourceTree = "<group>"; };
-		DF67A51323295A1D00C18A9A /* app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_logo.png; path = ../../app_logo.png; sourceTree = "<group>"; };
-		DF67A51423295A1D00C18A9A /* bg_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_splash.png; path = ../../bg_splash.png; sourceTree = "<group>"; };
 		DF79E5D923232D3E0024FC22 /* videoPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoPreviewViewController.swift; sourceTree = "<group>"; };
 		DFB118562304C40600FD1AD2 /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 		DFB11858230642CC00FD1AD2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		DFB314F322F233BC00374561 /* allvideodataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allvideodataViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		DFB5E79D237C8CDB00F5A419 /* bg_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +81,10 @@
 		DF50374A22EFAFBE00B45132 /* geovideo */ = {
 			isa = PBXGroup;
 			children = (
+				DF1357B5237C8D80000ABC4A /* logo.png */,
+				DF1357B4237C8D80000ABC4A /* logo1.png */,
+				DF1357B1237C8D3F000ABC4A /* app_logo.png */,
+				DFB5E79D237C8CDB00F5A419 /* bg_splash.png */,
 				DF50374B22EFAFBE00B45132 /* AppDelegate.swift */,
 				DF50374D22EFAFBE00B45132 /* ViewController.swift */,
 				DF50374F22EFAFBE00B45132 /* Main.storyboard */,
@@ -90,10 +93,6 @@
 				DF50375222EFAFBF00B45132 /* Assets.xcassets */,
 				DF50375422EFAFBF00B45132 /* LaunchScreen.storyboard */,
 				DF50375722EFAFBF00B45132 /* Info.plist */,
-				DF67A51323295A1D00C18A9A /* app_logo.png */,
-				DF67A51423295A1D00C18A9A /* bg_splash.png */,
-				DF67A50F23248D9E00C18A9A /* logo.png */,
-				DF67A50D2324893000C18A9A /* logo1.png */,
 				DF14C55722F0B4D400FE2F64 /* showtripController.swift */,
 				DFB314F322F233BC00374561 /* allvideodataViewControllerTableViewController.swift */,
 				DFB118562304C40600FD1AD2 /* newViewController.swift */,
@@ -170,12 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF50375622EFAFBF00B45132 /* LaunchScreen.storyboard in Resources */,
-				DF67A51023248D9E00C18A9A /* logo.png in Resources */,
-				DF67A51623295A1D00C18A9A /* bg_splash.png in Resources */,
-				DF67A51523295A1D00C18A9A /* app_logo.png in Resources */,
 				DF50375322EFAFBF00B45132 /* Assets.xcassets in Resources */,
-				DF67A50E2324893100C18A9A /* logo1.png in Resources */,
+				DF1357B7237C8D80000ABC4A /* logo.png in Resources */,
 				DF50375122EFAFBE00B45132 /* Main.storyboard in Resources */,
+				DF1357B3237C8D3F000ABC4A /* app_logo.png in Resources */,
+				DF1357B6237C8D80000ABC4A /* logo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
